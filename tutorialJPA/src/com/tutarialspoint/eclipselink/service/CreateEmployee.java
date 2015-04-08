@@ -16,9 +16,15 @@ public class CreateEmployee {
 		
 		Employee employee=new Employee();
 		employee.setEid(1201);
+<<<<<<< HEAD
 		employee.setEname("Victor");
 		employee.setSalary(40000);
 		employee.setDeg("Programador");
+=======
+		employee.setEname("Mao");
+		employee.setSalary(40000);
+		employee.setDeg("Teacher");
+>>>>>>> origin/master
 		
 		em.persist(employee);
 		em.getTransaction().commit();
